@@ -1,0 +1,70 @@
+[info] 2021-01-31 17:44:53 user 'anonymous user' requested page 'mvc/mini-framework/index' requested
+[info] 2021-01-31 17:44:59 user 'anonymous user' requested page 'mvc/mini-framework/login' requested
+[info] 2021-01-31 17:45:03 user 'anonymous user' requested page 'mvc/mini-framework/perform_login' requested
+[warning] 2021-01-31 17:45:03 user 'luca' tried to log-in with the wrong password
+[info] 2021-01-31 17:45:03 user 'anonymous user' requested page 'mvc/mini-framework/login?error=1' requested
+[info] 2021-01-31 17:49:00 user 'anonymous user' requested page 'mvc/mini-framework/perform_login' requested
+[info] 2021-01-31 17:49:00 user 'luca' succesfully logged-in (admin=)
+[info] 2021-01-31 17:49:00 user 'luca' requested page 'mvc/mini-framework/index' requested
+[info] 2021-01-31 17:49:08 user 'luca' requested page 'mvc/mini-framework/tasks' requested
+[info] 2021-01-31 17:49:11 user 'luca' requested page 'mvc/mini-framework/logout' requested
+[info] 2021-01-31 17:49:11 user '' logged-out
+[info] 2021-01-31 17:49:11 user 'anonymous user' requested page 'mvc/mini-framework/index' requested
+[info] 2021-01-31 17:49:13 user 'anonymous user' requested page 'mvc/mini-framework/login' requested
+[info] 2021-01-31 17:49:16 user 'anonymous user' requested page 'mvc/mini-framework/perform_login' requested
+[warning] 2021-01-31 17:49:16 user 'luca' tried to log-in with the wrong username or password
+[info] 2021-01-31 17:49:16 user 'anonymous user' requested page 'mvc/mini-framework/login?notification_status=error&notification=Wrong+username+or+password' requested
+[info] 2021-01-31 17:49:19 user 'anonymous user' requested page 'mvc/mini-framework/perform_login' requested
+[info] 2021-01-31 17:49:19 user 'luca' succesfully logged-in (admin=)
+[info] 2021-01-31 17:49:19 user 'luca' requested page 'mvc/mini-framework/index' requested
+[info] 2021-01-31 17:49:22 user 'luca' requested page 'mvc/mini-framework/tasks' requested
+[info] 2021-01-31 17:49:35 user 'luca' requested page 'mvc/mini-framework/parse_add_form' requested
+[info] 2021-01-31 17:49:35 user 'luca' added a new task with id=42
+[info] 2021-01-31 17:49:35 user 'luca' requested page 'mvc/mini-framework/tasks?notification_status=success&notification=Task+succesfully+added' requested
+[info] 2021-01-31 17:49:40 user 'luca' requested page 'mvc/mini-framework/show_task?task_id=42' requested
+[info] 2021-01-31 17:49:47 user 'luca' requested page 'mvc/mini-framework/edit_task' requested
+[info] 2021-01-31 17:49:47 user 'luca' edited task with id=42
+[info] 2021-01-31 17:49:47 user 'luca' requested page 'mvc/mini-framework/tasks?notification_status=success&notification=Task+succesfully+edited' requested
+[info] 2021-01-31 17:49:53 user 'luca' requested page 'mvc/mini-framework/show_task?task_id=42' requested
+[info] 2021-01-31 17:50:04 user 'luca' requested page 'mvc/mini-framework/edit_task' requested
+[info] 2021-01-31 17:50:04 user 'luca' edited task with id=42
+[info] 2021-01-31 17:50:04 user 'luca' requested page 'mvc/mini-framework/tasks?notification_status=success&notification=Task+succesfully+edited' requested
+[info] 2021-01-31 17:53:41 user 'luca' requested page 'mvc/mini-framework/logout' requested
+[info] 2021-01-31 17:53:41 user '' logged-out
+[info] 2021-01-31 17:53:41 user 'anonymous user' requested page 'mvc/mini-framework/index' requested
+[info] 2021-01-31 17:53:42 user 'anonymous user' requested page 'mvc/mini-framework/login' requested
+[info] 2021-01-31 17:53:45 user 'anonymous user' requested page 'mvc/mini-framework/perform_login' requested
+[info] 2021-01-31 17:53:45 user 'admin' succesfully logged-in (admin=1)
+[info] 2021-01-31 17:53:45 user 'admin' requested page 'mvc/mini-framework/index' requested
+[info] 2021-01-31 17:53:47 user 'admin' requested page 'mvc/mini-framework/tasks' requested
+[info] 2021-01-31 17:53:53 user 'admin' requested page 'mvc/mini-framework/show_task?task_id=42' requested
+[info] 2021-01-31 17:53:56 user 'admin' requested page 'mvc/mini-framework/edit_task' requested
+[info] 2021-01-31 17:53:56 user 'admin' edited task with id=42
+[info] 2021-01-31 17:53:56 user 'admin' requested page 'mvc/mini-framework/tasks?notification_status=success&notification=Task+succesfully+edited' requested
+[info] 2021-01-31 17:54:07 user 'admin' requested page 'mvc/mini-framework/show_task?task_id=6' requested
+[info] 2021-01-31 17:54:08 user 'admin' requested page 'mvc/mini-framework/delete_task' requested
+[info] 2021-01-31 17:54:08 user 'admin' deleted task with id=6
+[info] 2021-01-31 17:54:08 user 'admin' requested page 'mvc/mini-framework/tasks?notification_status=success&notification=Task+succesfully+deleted' requested
+[info] 2021-02-02 21:14:17 user 'luca' requested page 'mvc/mini-framework/tasks' requested
+[info] 2021-02-02 21:14:20 user 'luca' requested page 'mvc/mini-framework/logout' requested
+[info] 2021-02-02 21:14:20 user '' logged-out
+[info] 2021-02-02 21:14:20 user 'anonymous user' requested page 'mvc/mini-framework/index' requested
+[info] 2021-02-02 21:48:56 user 'luca' succesfully logged-in (admin=)
+[info] 2021-02-02 21:53:13 user 'luca' deleted task with id=3
+[info] 2021-02-02 21:53:30 user 'luca' added a new task with id=45
+[info] 2021-02-02 21:53:46 user 'luca' edited task with id=7
+[info] 2021-02-02 21:55:13 user 'luca' logged-out
+[info] 2021-02-02 21:55:17 user 'admin' succesfully logged-in (admin=1)
+[info] 2021-02-02 21:55:23 user 'admin' edited task with id=42
+[info] 2021-02-02 21:55:29 user 'admin' edited task with id=42
+[info] 2021-02-02 21:55:34 user 'admin' edited task with id=42
+[info] 2021-02-02 21:55:37 user 'admin' deleted task with id=42
+[info] 2021-02-02 21:55:42 user 'admin' deleted task with id=45
+[info] 2021-02-02 21:55:43 user 'admin' logged-out
+[info] 2021-02-02 21:55:46 user 'luca' succesfully logged-in (admin=)
+[info] 2021-02-02 21:55:53 user 'luca' edited task with id=4
+[info] 2021-02-02 21:55:58 user 'luca' edited task with id=8
+[info] 2021-02-02 22:21:46 user 'luca' logged-out
+[info] 2021-02-02 22:21:47 user 'luca' succesfully logged-in (admin=)
+[info] 2021-02-02 22:21:51 user 'luca' edited task with id=8
+[info] 2021-02-02 22:21:54 user 'luca' edited task with id=8

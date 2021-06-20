@@ -1,0 +1,373 @@
+body {
+	background-color: #25627b;
+	color: #17252a;
+	font-family: "NotoColorEmoji", "Gill Sans", "Gill Sans MT", Calibri,
+		"Trebuchet MS", sans-serif;
+	margin: 0px;
+}
+
+main {
+	width: 100%;
+	min-height: 100%;
+
+	background-position: center;
+	background-size: cover;
+}
+
+.home, .login, .signup{
+	background-image: url(../home_background.jpg);
+	min-height : 100vh;
+}
+
+.home h1, .login h1, .signup h1 {
+	margin-top: 0px;
+	padding-top: 30px;
+}
+
+.search {
+	background-image: url(../background.jpg);
+}
+
+.content {
+	width: 75%;
+	margin: auto;
+}
+
+.plot {
+	font-size: 0.8em;
+	text-align: center;
+	height: 300px;
+}
+
+h1 {
+	font-size: 42px;
+	color: #feffff;
+}
+
+a {
+	text-decoration: none;
+	color: #feffff;
+}
+
+/* Header */
+
+header {
+	background-color: #25627b;
+	color: #feffff;
+	height: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	width: 75%;
+	margin: auto;
+}
+
+header .email_display {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.email_display .logout {
+	padding-right: 10px;
+}
+
+#logo {
+	display: inline-block;
+	height: 80px;
+}
+
+#username {
+	font-weight: bold;
+	color: #25627b;
+}
+
+/* Footer */
+
+footer {
+	display: flex;
+	align-items: center;
+	height: 40px;
+
+	background-color: #25627b;
+}
+
+footer p {
+	width: 75%;
+	margin: auto;
+	color: #feffff;
+}
+
+/* Notifications */
+
+#notification_area {
+	display: flex;
+	align-items: center;
+
+	width: 60%;
+	height: 40px;
+	margin: auto;
+
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+	border-width: 10px;
+	border-style: solid;
+
+	border-radius: 5px;
+
+	box-shadow: 2px 2px 5px #777;
+}
+
+#notification_area.no_notification {
+	display: none;
+}
+
+#notification_area.error {
+	background-color: #af3a3a;
+	border-color: #af3a3a;
+}
+
+#notification_area.success {
+	background-color: #3aaf57;
+	border-color: #3aaf57;
+}
+
+#notification_text {
+	color: #feffff;
+
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+input[type="email"],
+input[type="submit"],
+input[type="text"],
+input[type="password"],
+input[type="date"],
+button {
+	height: 40px;
+	background-color: #feffff;
+	color: #17252a;
+	min-width: 100px;
+	border-radius: 3px;
+	font-weight: bold;
+	border-style: none;
+}
+
+input[type="email"],
+input[type="text"],
+input[type="date"],
+input[type="password"] {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+input[type="submit"],
+button {
+	color: #25627b;
+}
+
+input[type="submit"]:hover,
+button:hover {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #feffff;
+}
+
+[name="add_task_form"] input {
+	vertical-align: middle;
+}
+
+input[type="text"].edit_element {
+	width: 400px;
+}
+
+.input_element + .input_element {
+	margin-left: 20px;
+}
+
+input[type="submit"].apply_button {
+	background-color: #3aaf57;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+
+input[type="submit"].delete_button {
+	background-color: #af3a3a;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+.edit_element + .edit_element {
+	margin-left: 20px;
+}
+
+/* Main element */
+
+.current {
+	font-size: 2em;
+
+	background-color: rgba(255, 255, 255, 0.4);
+	backdrop-filter: blur(10px);
+	border-bottom: #feffff 1px solid;
+}
+
+.home_form {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.home_form .locality_input {
+	width: 85%;
+}
+
+.home_form .submit_input {
+	width: 10%;
+}
+
+.title {
+	text-align: center;
+	padding: 5%;
+	padding-top: 0px;
+}
+
+.title .locality {
+	font-size: 1.5em;
+
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.title .locality .detail {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#favourite_star img {
+	height: 42px;
+	vertical-align: middle;
+}
+
+#country_flag img {
+	height: 42px;
+	vertical-align: middle;
+}
+
+.title .date {
+	font-size: 0.6em;
+}
+
+.title .temp {
+	font-size: 1.2em;
+}
+
+.title .description {
+	font-size: 0.8em;
+}
+
+.informations {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.weather {
+	text-align: center;
+}
+
+.weather .description {
+	font-size: 0.6em;
+}
+
+.next_days_temperature {
+	text-align: center;
+}
+
+/* Week days */
+
+.overview {
+	backdrop-filter: blur(10px);
+	border-radius: 10px;
+	border: 1px solid #feffff;
+	padding: 10px;
+	background-color: rgba(255, 255, 255, 0.4);
+	text-align: center;
+	box-shadow: 3px 3px 10px #777;
+	color: #17252a;
+}
+
+#week-days {
+	padding-top: 5%;
+	padding-bottom: 5%;
+	display: flex;
+
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: flex-start;
+}
+
+.day-column {
+	border: 2px #feffff solid;
+	border-radius: 10px;
+	margin: 3px;
+
+	height: 350px;
+	width: 200px;
+
+	background-color: rgba(255, 255, 255, 0.7);
+	backdrop-filter: blur(10px);
+
+	transform: scale(1);
+	cursor: pointer;
+}
+
+.day-column:hover {
+	transition: 50ms ease-in-out;
+	transform: scale(1.02);
+	z-index: 10;
+}
+
+.day-column .day {
+	text-align: center;
+	border-bottom: 2px #17252a solid;
+	font-size: 1.8em;
+	padding-bottom: 2px;
+	padding-top: 2px;
+
+	height: 35px;
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+	overflow: hidden;
+}
+
+.day-column .day-weather-info {
+	text-align: center;
+}
+
+.weather .detail {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 1.5em;
+}
+
+.details {
+	margin: 10px;
+}
+
+.day-weather-minmax {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	position: relative;
+	bottom: 20px;
+}
+
+.day-weather-minmax p:first-child {
+	color: #266fc3;
+}
+
+.day-weather-minmax p:nth-child(2) {
+	color: #cf4949;
+}
